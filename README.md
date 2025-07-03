@@ -65,7 +65,7 @@ A RESTful API backend built with Node.js, Express, and MongoDB to manage user au
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/subscription-tracker-api.git
+git clone https://github.com/Umoru98/subscription-tracker-api.git
 cd subscription-tracker-api
 ```
 
