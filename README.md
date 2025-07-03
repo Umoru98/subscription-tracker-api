@@ -43,7 +43,7 @@ A RESTful API backend built with Node.js, Express, and MongoDB to manage user au
 - JWT for authentication  
 - Bcrypt for password hashing  
 - Upstash Workflows for subscription reminders  
-- Rate-limiting and bot protection via Arcjet
+- Arcjet for rate-limiting and bot protection
 - Day.js for date handling  
 - Cookie-parser middleware  
 - ES Modules (import/export syntax)  
