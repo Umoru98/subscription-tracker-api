@@ -44,6 +44,7 @@ A RESTful API backend built with Node.js, Express, and MongoDB to manage user au
 - Bcrypt for password hashing  
 - Upstash Workflows for subscription reminders  
 - Arcjet for rate-limiting and bot protection
+- Nodemailer for email notifications
 - Day.js for date handling  
 - Cookie-parser middleware  
 - ES Modules (import/export syntax)  
@@ -57,6 +58,7 @@ A RESTful API backend built with Node.js, Express, and MongoDB to manage user au
 - Node.js (v16 or higher recommended)  
 - MongoDB instance (local or cloud, e.g., MongoDB Atlas)  
 - Upstash account for Workflow integration (optional, required for reminders)  
+- Arcjet account for rate-limiting and bot protection
 
 ### Installation
 
