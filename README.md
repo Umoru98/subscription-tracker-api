@@ -28,7 +28,8 @@ A RESTful API backend built with Node.js, Express, and MongoDB to manage user au
 - View subscriptions filtered by user  
 - Get upcoming renewals within the next 7 days  
 - Cancel subscriptions (soft delete)  
-- Automated email reminders sent at 7, 5, 2, and 1 day before renewal using Upstash Workflows  
+- Automated email reminders sent at 7, 5, 2, and 1 day before renewal using Upstash Workflows 
+- Integrated rate-limiting and bot protection to secure API endpoints 
 - JWT-based authentication and protected routes  
 - Error handling middleware for consistent API error responses  
 
@@ -42,6 +43,7 @@ A RESTful API backend built with Node.js, Express, and MongoDB to manage user au
 - JWT for authentication  
 - Bcrypt for password hashing  
 - Upstash Workflows for subscription reminders  
+- Rate-limiting and bot protection via Arcjet
 - Day.js for date handling  
 - Cookie-parser middleware  
 - ES Modules (import/export syntax)  
