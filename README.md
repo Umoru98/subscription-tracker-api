@@ -90,7 +90,7 @@ Create a .env file in the root directory or configure your environment variables
 ```.env
 PORT=3000
 
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/dbname
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/dbname
 
 JWT_SECRET=your_jwt_secret_key
 JWT_EXPIRES_IN=1d
